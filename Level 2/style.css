@@ -1,0 +1,39 @@
+h1{
+    text-align: center ;
+}
+div{
+    color: red; 
+    background-color: rgb(136, 255, 255);
+}
+button{
+    text-align: center;
+    color: crimson;
+
+}
+#h1{
+    font-weight: 100;
+}
+#h2{
+    font-weight: 200 ;
+}
+#h3{
+    font-weight: 300;
+}
+#h4{
+    font-weight: 400;
+}
+#h5{
+    font-weight: 500;
+}
+#h6{
+    font-weight: 600 ;
+}
+#h7{
+    font-weight: 700 ;
+}
+#h8{
+    font-weight: 800 ;
+}
+#h9{
+    font-weight: 900 ;
+}
