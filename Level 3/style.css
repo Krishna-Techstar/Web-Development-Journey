@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+     height: 100px;
+    width: 1000px;
+    background-color: pink;
+    /*border-width: 4px;
+    border-style: solid;
+    border-color: brown;*/
+    border:6px dotted red;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    /*border-width: 4px;
+    border-style: solid;
+    border-color: brown;*/
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    /*padding-left:10px ;
+    padding-right: 15px;
+    padding-top:7px;
+    padding-bottom: 89px;*/
+    padding: 25px;
+    /*padding: 1px 2px 3px 4px ;*/
+    margin: 256px;
+}
