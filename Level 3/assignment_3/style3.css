@@ -1,0 +1,27 @@
+
+#green{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: green;
+}
+#blue{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+}
+#red{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+div{
+    height: 1100px;
+    width: 400px;
+    background-color: gray;
+    padding: 50px;
+    margin: 50px;
+    
+}
