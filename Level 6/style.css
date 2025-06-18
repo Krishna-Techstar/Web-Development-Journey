@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+    flex-shrink: .5;
+}
+#box3{
+    background-color: red;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: orange;
+}
+#box6{
+    background-color: orchid;
+}
