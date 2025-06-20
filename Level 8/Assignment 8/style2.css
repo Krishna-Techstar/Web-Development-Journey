@@ -1,0 +1,21 @@
+div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 125px;
+    margin-top: 75px;
+    /* background-color: red; */
+    border: 40px solid #00a5cf;
+    border-top: 40px solid #004e64;
+    animation: spinAnimation 1s ease-in-out 0s infinite normal;
+}
+@keyframes spinAnimation {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
