@@ -1,0 +1,12 @@
+let c=10;
+let d=10;
+let e=5;
+    console.log("c==d",c==d);
+    console.log("c!=e",c!=e);
+    console.log("c===e",c===e);
+    console.log("c!==e",c!==e);
+    console.log("c>e",c>e);
+    console.log("c<e",c<e);
+    console.log("c>=d",c>=d);
+    console.log("c<=d",c<=d);
+    // console.log("cde",cde);
