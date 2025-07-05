@@ -31,3 +31,12 @@ const arrow = (p, Q, R)=>{
     m=p*R;
     console.log("Multiple of Number are", m);
 }
+
+// forEach Loops on arrays
+
+let arr=["mumbai", "delhi", "kolkota", "banglore", "channai", "patna"]
+
+    arr.forEach((val, idx)=> {
+        console.log(arr);
+        console.log(val.toUpperCase(), idx,     );}
+);
