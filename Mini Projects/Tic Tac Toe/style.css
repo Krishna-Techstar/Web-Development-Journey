@@ -25,7 +25,7 @@ body{
     align-items: center;
     gap: 1.5vmin;
 }
-#box{
+.box{
      height: 18vmin;
      width: 18vmin;
      border-radius: 1rem;
@@ -44,4 +44,34 @@ body{
     border-radius: 1rem;
     
 
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #aaaaaa;
+    color: #fbf1f9;
+    border-radius: 1rem;
+    
+}
+
+#msg{
+    color:  #ff004d;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+#heading{
+    font-size: 10vmin;
 }
