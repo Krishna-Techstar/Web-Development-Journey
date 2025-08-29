@@ -120,3 +120,61 @@ class Doctor extends Person {
 }
 
 let krishnakantObj = new Engineer();
+
+/// constructor and super keyword 
+
+class human{
+    constructor(){
+        console.log("Here we Entry Parent Constructor ");
+        this.kind= "Homo Sapiens";
+    }
+    man(){
+        console.log("He is a man.");
+    }
+    women(){
+        console.log("She is a Women.")
+    }
+}
+
+class mankind extends human{
+    constructor(type) {
+        console.log("Here we have entry in child constructor");
+        super();
+        this.type = type;
+        console.log("here we have existed the child constructor");
+    }
+    work(){
+        console.log("To live Happly.");
+    }
+}
+
+// let humanobj= new human("");
+let mankindobj= new mankind("Man and Women");
+
+
+// suoer keyword is very imp like aagar hame kuch bhi pass karna hai information from child to parent then only method is super keyword.
+
+class Person1 {
+    constructor(name) {
+        this.species1 = "Homo Sapiens";
+        this.name = name;
+    }
+
+    eat() {
+        console.log("This Person has eaten food.");
+    }
+}
+   
+
+class Engineer1 extends Person1 {
+    constructor(name){
+        super(name);
+    }
+    
+    work() {
+        console.log("This Engineer is solving problems and building things.");
+    }
+}
+
+
+let krishnaObj = new Engineer1("Krishnakant");
