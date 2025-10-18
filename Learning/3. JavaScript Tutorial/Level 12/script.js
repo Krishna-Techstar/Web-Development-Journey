@@ -48,3 +48,20 @@ getData(1, ()=>{
 });
 });
 });
+
+
+
+// Promise s in JavaScript
+
+// 1. Promise is a object 
+// 2. Promise is used to handle asynchronous operation in JavaScript
+// 3. Promise has 3 states - pending, fulfilled, rejected
+// 4. Promise is used to avoid callback hell
+
+// Creating a Promise
+
+let promise = new Promise((resolve , reject) =>{
+    console.log("I am a Promise");
+    resolve("An Error occurred Due to code");
+}
+);
