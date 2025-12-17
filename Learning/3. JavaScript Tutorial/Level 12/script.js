@@ -65,3 +65,37 @@ let promise = new Promise((resolve , reject) =>{
     resolve("An Error occurred Due to code");
 }
 );
+
+// BASICALLY TO CREATE PROMISE
+
+function getData(dataId, getNextData){
+    return new Promise((resolve , reject) =>{
+        setTimeout(()=>{
+            console.log("data", dataId);
+            resolve("Success");
+            if (getNextData){
+                getNextData();
+            }
+        },2000);
+    });
+}
+
+// How to Use Promise
+let promise1 = new Promise1((resolve , reject) =>{
+    console.log("I am a Promise");
+    resolve("An Error occurred Due to code");
+}
+);
+const getPromise1 =()=>{
+    return new Promise1((resolve, reject)=>{
+        console.log("I am Promise 1");
+        resolve("SuccessFul");
+    });
+};
+
+let Promise1 = getPromise1();
+Promise1.then((res)=>{
+    console.log("Promise Fullfied");
+});
+
+promise.catch
